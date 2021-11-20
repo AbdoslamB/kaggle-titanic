@@ -4,3 +4,12 @@ This is a Titanic Machine Learning From Disaster competition from  Kaggle platfo
 
 
 Competition in kaggle Website: https://www.kaggle.com/c/titanic
+
+### Analysis 
+* Logit Regression Model
+* Quadratic Discriminant Analysis  (QDA)
+* Naïve Bayes
+* KNN models
+*  RandomForest
+*  Support Vector Machine (SVM)
+*  Neural Networks
