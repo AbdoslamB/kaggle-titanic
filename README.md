@@ -7,9 +7,10 @@ Competition in kaggle Website: https://www.kaggle.com/c/titanic
 
 ### Analysis 
 * Logit Regression Model
+* Linear Discriminant Analysis (LDA)
 * Quadratic Discriminant Analysis (QDA)
 * Naïve Bayes
-* KNN models
+* K-Nearest Neighbors (KNN)
 *  RandomForest
 *  Support Vector Machine (SVM)
 *  Neural Networks
