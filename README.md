@@ -4,6 +4,7 @@ This is a Titanic Machine Learning From Disaster competition from  Kaggle platfo
 
 look at the competition in **[kaggle Website](https://www.kaggle.com/c/titanic)**.
 
+
 ### Analysis 
 * Logistic Regression Model
 * Linear Discriminant Analysis (LDA)
