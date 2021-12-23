@@ -11,6 +11,6 @@ look at the competition in **[kaggle Website](https://www.kaggle.com/c/titanic)*
 * Quadratic Discriminant Analysis (QDA)
 * Naïve Bayes
 * K-Nearest Neighbors (KNN)
-* RandomForest
+* Random Forest
 * Support Vector Machine (SVM)
 * Neural Networks
