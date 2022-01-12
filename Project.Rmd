@@ -1,7 +1,6 @@
----
-title: "MidTerm Project"
-author: "Abdoslam Baabbad"
----
+
+Author: "Abdoslam Baabbad"
+
 ## Content
 * **[Step 1](#Step1)**
 
@@ -49,7 +48,7 @@ I did the Treatments of the test data early to make sure a got the similar resor
 * [Submit results](#Submit)
 
 
-<div id="Step1"></div>
+
 ## Step1
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.width = 3, fig.height = 3)
