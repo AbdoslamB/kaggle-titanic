@@ -633,11 +633,3 @@ predict the test data (tef) using the traingn data model with LDA model
 ```{r }
 Prediction <- predict(lda_full, newdata = tef)
 ```
-<div id="Submit"></div>
-create data frame to get the Passenger Id and the Prediction for the teasing data and submit it as CVS file for Kaggle
-```{r }
-
-submit <- data.frame(PassengerId = tef$PassengerId, Survived = Prediction)
-
-write.csv(submit, file = "firstforest.csv", row.names = FALSE)
-```
