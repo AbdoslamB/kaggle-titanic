@@ -1,6 +1,4 @@
 
-Author: "Abdoslam Baabbad"
-
 ## Content
 * **[Step 1](#Step1)**
 
