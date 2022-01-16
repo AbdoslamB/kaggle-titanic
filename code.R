@@ -1,20 +1,4 @@
 
-## Step1
-
-knitr::opts_chunk$set(echo = TRUE, fig.width = 3, fig.height = 3)
-
-
-# Check the loaded data and data types. Many are not factors and need to be converted to factors.\
-
-
-wd = "C:/Users/baaba/Downloads/"
-rfile1=paste0(wd,"train.csv")
-tf = read.csv(rfile1,na.strings=c("NA",""))
-str(tf)
-
-rfile2=paste0(wd,"test.csv")
-tef = read.csv(rfile2,na.strings=c("NA",""))
-
 ### Needed libraries 
 
 library(caret)
