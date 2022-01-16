@@ -1,6 +1,6 @@
 
 ## Step1
-```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = TRUE, fig.width = 3, fig.height = 3)
 
 
@@ -385,7 +385,7 @@ lda_CV <- train(Survived ~ .,
 )
 
 lda_CV 
-```
+
 
  #  **Model 3 : QDA with CV**
 
