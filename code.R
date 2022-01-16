@@ -1,4 +1,50 @@
 
+## Content
+* **[Step 1](#Step1)**
+
+* [Treatment of N/A](#Treatment)
+* [Why not impute Cabin discussion](#Cabindiscussion)
+* [Comment on distribution of Varables](#Comment) 
+* [Is sex a predictor or is it a policy over-ride?](#sexpredictor)
+
+* **[Step 2](#Step2)**
+
+* [Logit](#Logit) 
+* [LDA](#lda) 
+* [QDA](#qda) 
+* [NB](#nb)  
+* [KNN](#knn)
+
+* [Feature selection using Lasso](#Lasso)
+* [Comment on multi-collinearity](#collinearity)
+* [Estimate errors using bootstrap](#bootstrap)
+
+* *k-fold cross validation setup*
+* [Logit CV](#Logitcv) 
+* [LDA CV](#ldacv) 
+* [QDA CV](#qdacv) 
+* [NB CV](#nbcv)  
+* [KNN CV](#knncv)
+
+* [Explain models differences](#various)
+
+* **[Step 3](#Step3)**
+* *Compare performance using ROC and AUC measures*
+* [Logit performance](#Logitp) 
+* [LDA performance](#ldap) 
+* [QDA performance](#qdap) 
+* [NB performance](#nbp)  
+* [KNN performance](#knnp)
+
+* **[Step 4](#Step4)**
+
+* [Treatments of test data](#testD)
+
+I did the Treatments of the test data early to make sure a got the similar resort like the training data set
+* [Identify which model is selected using x-validation](#Identify)
+* [Rebuild the model using full train dataa](#Rebuild)
+* [Submit results](#Submit)
+
 ### Needed libraries 
 
 library(caret)
