@@ -101,18 +101,9 @@ sapply(tef,function(df){100*sum(is.na(df==TRUE)/length(df))}) # get a % of NA fo
 table(tf$Embarked, useNA="always") # to show number of NA values in the dataset
 tf$Embarked[which(is.na(tf$Embarked))]='S' # assign missing value to most counted port Southampton
 table(tf$Embarked, useNA="always") # no NA and S went up by two
-
-# Discover the titles and summarize the Mr, Miss, ..... \
-# Missing ages for each age can be imputed using titles: assuming each title average is a good proxy \
-# Number of missing ages: 177 (19.86%) \
-# The logic: get a substring containing a period, then bind the column. \
-# Acquire the statistics of missing values, we can count each title. \
-# Then calculate the mean of each group based on title \
-# Lastly assign the missing values of each title to the mean estimated above \
-# Verify that Age has no more N/A by running the sapply function \
-
-
-
+  
+  
+  
 table(tef$Embarked, useNA="always") # to show number of NA values in the dataset
 tef$Embarked[which(is.na(tef$Embarked))]='S' # assign missing value to most counted port Southampton
 table(tef$Embarked, useNA="always") # no NA and S went up by two
