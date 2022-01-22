@@ -234,7 +234,6 @@ tf <- tf[-c(4,9,11)]
 
 tef <- tef[-c(3,8,10)]
 
-
 # We are setting the seed at 3131 to make sure all the following results going to be the same always
 set.seed(3131)  
 
@@ -246,8 +245,7 @@ training <- tf[trainIndex,]
 # 30% testing data
 testing <- tf[-trainIndex,]
 
-
-Now we will make final check if the data missing or lost while we are working before starting to build the models
+# Now we will make final check if the data missing or lost while we are working before starting to build the models
 
 dim(training); dim(testing)
 missmap(tf)
@@ -270,7 +268,6 @@ Logit_fit <- train(Survived ~., data = training, method = "glm",
 Logit_fit
 
 
-<div id="lda"></div>
   **Model 2 : Linear Discriminant Analysis (LDA)**
 
 lda_fit <- train(Survived ~ .,
@@ -292,7 +289,6 @@ qda_fit <- train(Survived ~.,
 
 qda_fit
 
-<div id="nb"></div>
   **Model 4 : Naive Bayes (NB)**
 
 nb_fit <- train(Survived ~., 
@@ -302,7 +298,6 @@ nb_fit <- train(Survived ~.,
                 tuneLength = 10)
 
 nb_fit
-
 
 
   **Model 5 :  K-Nearest Neighbors (KNN)**
@@ -340,7 +335,6 @@ cv.out <- cv.glmnet(x, y,
 
 # Plotting the misclassification error with the log of Lambda (??) 
 plot(cv.out)
-
 
 
 library(car)
@@ -389,7 +383,6 @@ Logit_CV <- train(Survived ~.,
 )
 
 Logit_CV
-
 
 #  **Model 2 : LDA with CV**
 
@@ -443,7 +436,6 @@ nb_CV <- train(Survived ~., data =
 nb_CV
 
 
-
 #  **Model 5 : KNN with CV**
 
 #The Control for the 10-fold CV 
@@ -463,8 +455,6 @@ knn_cv
 
 
 These models are has good accuracy over all the logistic regression , lda ,QDA, NB and the KNN have more than 70% of the accuracy however that could improve after using the cross-valudation 
-
-
 
 
 
