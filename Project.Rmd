@@ -141,6 +141,7 @@ tf$Age[grepl(" Miss\\.", tf$Name) & is.na(tf$Age)]=mean.miss
 tf$Age[grepl(" Master\\.", tf$Name) & is.na(tf$Age)]=mean.master
 sapply(tf,function(df){100*sum(is.na(df==TRUE)/length(df))}) # get a % of NA for all variables
 ```
+
 ```{r discover-titles for test data}
 tef$Name = as.character(tef$Name)
 table_words = table(unlist(strsplit(tef$Name, "\\s+"))) # tokenize the names
