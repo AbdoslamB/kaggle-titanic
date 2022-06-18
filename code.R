@@ -61,7 +61,6 @@ library(kernlab)
 library(regclass)
 
 
-
 # Convert features to factors \
 # Features: Name, Sex, Ticket, Cabin, Survived \
 
